@@ -1,0 +1,149 @@
+/* CSS Document */
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.hnav {
+	width: 100%;
+	background-color: #11181E;
+	min-height: 50px;
+	text-align: center;
+}
+
+.hnav ul {
+	display: block;
+	padding-top: .5em;
+}
+
+.hnav ul li {
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+	padding: 0 .5%;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #E4F2EA;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.hnav a:hover {
+	background-color: #A68160;
+	color: #11181e;
+}
+
+.fnav {
+	width: 100%;
+	background-color: black;
+	min-height: 50px;
+	text-align: center;
+	padding: .8em;
+}
+
+.fnav ul {
+	display: block;
+	padding-top: .5em;
+}
+
+.fnav ul li {
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+	padding: 0 .5%;
+}
+
+.fnav a {
+	text-decoration: none;
+	color: #E4F2EA;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#container {
+	background-image: url("../images/portfoliopic.png");
+	background-repeat: no-repeat; 
+	background-size: contain;
+	min-height: 100%;
+}
+
+#container h1 {
+	color: darkorange;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+}
+
+button {
+	margin: 4% 9%;
+	font-size: 1.3em;
+	border-radius: 5px;
+	padding: 2%;
+	width: 200px;
+	height: 145px;
+	color: white;
+}
+
+button:hover {
+	text-decoration: none;
+	width: 14%;
+	border: 2px solid #000000;
+	padding: .5em .5em;
+	color: white;
+}
+
+.christmasbtn{
+	background-image: url("../images/Screen Shot 2023-02-09 at 12.34.16 PM.png");
+}
+
+.beaglesbtn {
+	background-image: url("../images/beagles.png");
+}
+
+.nintendobtn {
+	background-image: url("../images/Untitled-1.png");
+}
+
+.forwardfitbtn {
+	background-image: url("../images/ffpic.png");
+}
+
+.resumebtn {
+	background-image: url("../images/resume.png");
+	color: black;
+}
+.resumebtn:hover {
+	color:black;
+}
+
+.desc {
+	color: #002AFA;
+}
+
+#container h2 {
+	color: darkorange;
+	font-size: 50px;
+	text-align: center;
+}
+
+#container h3 {
+	text-align: center;
+	color: darkorange;
+	border: 2px solid #000000;
+	font-size: 28px;
+}
+
+footer {
+	background-color: #ff8c0088;
+	min-height: 300px;
+	text-align: center;
+}
