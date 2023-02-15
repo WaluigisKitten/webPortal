@@ -1,0 +1,75 @@
+/* CSS Document */
+
+/* css browser reset */
+body, header, nav, main, section, ul, li ,a, footer, img, h1, h2 {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body {
+	
+	background: linear-gradient(red, blue, red, blue 90%);
+	font-size: 1.5em;
+}
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/*style rule for our header*/
+
+h1 { 
+	text-align: center;
+	font-size: 100px;
+	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: 'La Belle Aurore', cursive;
+}
+
+h2 {
+	font-size: 75px;
+	font-family: 'Dancing Script', cursive;
+}
+
+header img{
+	max-width: 45%;
+	margin: 0 auto;
+}
+
+/* Style rules for out navigation */
+nav{
+	padding: 1%;
+	margin-bottom: 1;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+nav li{
+	font-size: 1.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-top: 1px solid #fff;
+}
+nav li:first-child {
+	border-top: none;
+}
+nav li a{
+	display: block;
+	color: black;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+/* style rule for main sections*/
+section img {
+	max-width: 50%;
+}
+
+p img {
+	float: left;
+	padding-right: 20px;
+}
